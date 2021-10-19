@@ -1,0 +1,33 @@
+.contact-bar {
+    background-color: $color-green;
+    color: $color-white;
+    font-size: 12px;
+    padding: 6px 0;
+
+    a {
+        color: $color-white;
+    }
+
+
+    &__social-icon {
+        img {
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contact-bar__number {
+        font-size: 9px;
+    }
+
+    .contact-bar__social-icon img {
+        height: 15px;
+        text-align: center;
+    }
+
+}
+
+
